@@ -36,7 +36,7 @@ class Config:
     # External IPTV source URL
     SOURCE_URL = os.environ.get(
         "SOURCE_URL",
-        "https://live-sstv.apps.skin-knife.com/live/space_toon/index.m3u8"
+        "https://static.france24.com/live/F24_AR_LO_HLS/live_tv.m3u8"
     )
     # Admin password for the dashboard
     ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "admin123")
